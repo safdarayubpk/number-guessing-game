@@ -1,0 +1,23 @@
+{
+  "name": "@safdar_ayub/number-guessing-game",
+  "version": "1.0.0",
+  "description": "A simple TypeScript/Node.js project where users guess a randomly generated number. Includes customizable features like multiple rounds and score tracking. Ideal for beginners to practice TypeScript and Node.js.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.21"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
